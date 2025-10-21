@@ -43,4 +43,45 @@ dari 3 buah bilangan yang diinputkan?
 
 • Buat flowchart untuk menentukan bilangan terbesar
 dari N bilangan yang diinputkan, untuk menentukan
-jumlah N, berikan masukan angka 0.
+jumlah N, berikan masukan angka 0.  
+
+### flowchart  
+
+![gambar](ss/3.png)
+
+### deklarasi
+
+Mulai  
+
+Baca N  
+
+(N = jumlah data yang akan dibaca)  
+
+Inisialisasi:  
+
+max = 0, i = 1  
+
+Apakah i ≤ N?  
+
+Jika tidak, lanjut ke langkah 7  
+
+Jika ya, lanjut ke langkah 4  
+
+Baca current  
+
+(nilai data ke-i)  
+
+Apakah current < max?  
+
+Jika ya, maka i = i + 1 dan kembali ke langkah 3  
+
+Jika tidak, maka max = current, i = i + 1, kemudian kembali ke langkah 3  
+
+Ulangi langkah 3 sampai i > N  
+
+Cetak max  
+
+(tampilkan nilai maksimum dari semua data)  
+
+Selesai  
+
